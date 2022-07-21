@@ -33,10 +33,10 @@ a {
 
 }
 
-.highlight-text{
+.highlight-text {
     background-color: var(--cor1);
     color: var(--cor4);
-    padding: 2px 3px 2px 3px ;
+    padding: 2px 3px 2px 3px;
 }
 
 
@@ -60,22 +60,22 @@ a {
 
 }
 
-.main-title{
+.main-title {
     color: var(--cor5);
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
 }
 
-.green-heading{
+.green-heading {
     color: var(--cor5);
     font-family: var(--fonte-android);
     font-size: 1.3em;
     font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor1), transparent)  ;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
-    
-    
+
+
 }
 
 .main-header>h3 {
@@ -118,6 +118,19 @@ main {
     padding-bottom: 3%;
     background-color: var(--cor5);
     display: flex;
+    width: 100%;
+
+    /* width=largura */
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 .container {
